@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 5rem;
+}
+
+.banderas {
+  text-align: center;
+}
+.banderas__container {
+  border: 2px solid grey;
+  width: 450px;
+  height: 250px;
+  display: inline-block;
+  margin: 10px;
+  position: relative;
+}
+.banderas__esp-rojo {
+  background-color: red;
+  width: 100%;
+  height: 64px;
+}
+.banderas__esp-amarillo {
+  background-color: yellow;
+  width: 100%;
+  height: 118px;
+}
+.banderas__din-rojo {
+  background-color: red;
+  width: 100%;
+  height: 100%;
+}
+.banderas__din-rojo .horizontal {
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  top: 45%;
+}
+.banderas__din-rojo .vertical {
+  background-color: white;
+  position: absolute;
+  width: 30px;
+  height: 100%;
+  left: 25%;
+}
+.banderas__arab-rojo {
+  background-color: red;
+  width: 100%;
+  height: 100%;
+}
+.banderas__arab-colores {
+  position: absolute;
+  width: 80.1%;
+  height: 100%;
+  left: 20%;
+}
+.banderas__arab-colores .verde {
+  width: 100%;
+  height: 33.3%;
+  background-color: green;
+}
+.banderas__arab-colores .blanco {
+  width: 100%;
+  height: 33.3%;
+  background-color: white;
+}
+.banderas__arab-colores .negro {
+  width: 100%;
+  height: 33.3%;
+  background-color: black;
+}
+.banderas__jap-blanco {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+.banderas__jap-blanco .circle {
+  border-radius: 50%;
+  background-color: red;
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  margin-top: -55px;
+  top: 50%;
+  margin-left: -55px;
+  left: 50%;
+}
+
+/*# sourceMappingURL=style.css.map */

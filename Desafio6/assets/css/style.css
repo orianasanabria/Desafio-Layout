@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.producto {
+  margin: 40px;
+  width: 243px;
+  height: 285px;
+  position: relative;
+}
+.producto__item {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.producto__ribbon {
+  left: 63%;
+  top: 53%;
+  position: absolute;
+}
+.producto__ribbon img {
+  width: 55px;
+  height: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */
